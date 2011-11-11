@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="compiled-css/examples.css" />
+    <body>
+      <div class="wrapper">
+        <header>
+        <h1>Foundation.sass</h1>
+        <h2>A set of useful cross browser mixins for <strong>SASS</strong> that makes life on the front end a whole lot easier.</h2>
+        <hr />
+        </header>
+
+        <section>
+        <h3>Grid</h3>
+        <pre>
+.row
+  .four.columns
+    #something
+
+  .six.columns
+    #somethingElse
+        </pre>
+        </section>
+
+        <section>
+        <h3>Gradients</h3>
+        <pre>
+body
+  +gradient(blue, #2c755a)
+  +ie-gradient(blue, #2c755a)
+        </pre>
+        </section>
+
+        <section>
+        <h3>Rounded Corners</h3>
+        <pre>
+.round-all
+  +border-radius(6px)
+
+.round-only-left-corners
+  +border-radius(6px, 0, 6px, 0)
+        </pre>
+        </section>
+
+
+        <section>
+        <h3>Box Shadows</h3>
+        <pre>
+.normal-shadow
+  +box-shadow(0 2px 3px rgba(0,0,0,4))
+
+.inset-with-shadow
+  +box-shadow(inset 0 3px 5px rgba(0,0,0,.4), 0 5px 10px rgba(0,0,0,.4))
+        </pre>
+        </section>
+      </body>
+    </html>
