@@ -9,12 +9,11 @@ for more information.
 Installation
 --------------
 
-1. clone this repository
-    git clone https://github.com/jcarver989/foundation.sass.git
+1. Download  compiled/foundation.sass 
 
 2. import foundation.sass into your project
     // my_app.sass
-    @import path/to/foundation.sass
+    @import foundation.sass
 
 Usage
 ------------
