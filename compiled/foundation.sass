@@ -18,179 +18,178 @@ $light-gray: #eee
 $purple: #933ad1
 
 .row
-    :margin 20px 0 20px 0
-
+    margin: 20px 0 20px 0
 
 .centered
-    :margin-left auto
-    :margin-right auto
-    :margin-top 40px
-    :text-align center
+    margin-left: auto
+    margin-right: auto
+    margin-top: 40px
+    text-align: center
 
 
 .mini-row
-    :margin 10px 0 0 0
-    :overflow hidden
+    margin: 10px 0 0 0
+    overflow: hidden
+
 .first-mini-row
-    :margin 0
-    :overflow hidden
+    margin: 0
+    overflow: hidden
 
 .row:after, .mini-row:after
-    :display block
-    :clear both
-    :content "."
-    :visibility hidden
-    :height 0
+    display: block
+    clear: both
+    content: "."
+    visibility: hidden
+    height: 0
 
 #firstRow
-    :margin 0
+    margin: 0
 
 
 .column, .columns
-    :margin 0 0 0 20px
-    :padding 0
-    :float left
+    margin: 0 0 0 20px
+    padding: 0
+    float: left
 
     &:first-child
-        :margin-left 0
+        margin-left: 0
 
 .first-column
-    :margin 0
-    :padding 0
-    :float left
+    margin: 0
+    padding: 0
+    float: left
 
 
 .mini-row .column
-    :margin-left 10px
+    margin-left: 10px
 
 
 .quarter
-    :width 25px
+    width: 25px
+
 .half
-    :width 50px
+    width: 50px
 
 .three-quarters
-    :width 75px
+    width: 75px
 
 .one
-    :width 100px
+    width: 100px
 
 .two
-    :width 200px
+    width: 200px
 
 .three
-    :width 300px
+    width: 300px
 
 .four
-    :width 400px
+    width: 400px
 
 
 .five
-    :width 500px
-
+    width: 500px
 
 .six
-    :width 600px
+    width: 600px
 
 .seven
-    :width 700px
+    width: 700px
 
 .eight
-    :width 800px
+    width: 800px
 
 .nine
-    :width 900px
+    width: 900px
 
 .ten
-    :width 1000px
+    width: 1000px
 
 .one-and-a-quarter
-    :width 125px
+    width: 125px
 
 .two-and-a-quarter
-    :width 225px
+    width: 225px
 
 .three-and-a-quarter
-    :width 325px
+    width: 325px
 
 .four-and-a-quarter
-    :width 425px
+    width: 425px
 
 .five-and-a-quarter
-    :width 525px
+    width: 525px
 
 .six-and-a-quarter
-    :width 625px
+    width: 625px
 
 .seven-and-a-quarter
-    :width 725px
+    width: 725px
 
 .eight-and-a-quarter
-    :width 825px
+    width: 825px
 
 .nine-and-a-quarter
-    :width 925px
-
+    width: 925px
 
 .one-and-a-half
-    :width 150px
+    width: 150px
 
 .two-and-a-half
-    :width 250px
+    width: 250px
 
 .three-and-a-half
-    :width 350px
+    width: 350px
 
 .four-and-a-half
-    :width 450px
+    width: 450px
 
 .five-and-a-half
-    :width 550px
+    width: 550px
 
 .six-and-a-half
-    :width 650px
+    width: 650px
 
 .seven-and-a-half
-    :width 750px
+    width: 750px
 
 .eight-and-a-half
-    :width 850px
+    width: 850px
 
 .nine-and-a-half
-    :width 950px
+    width: 950px
 
 .one-and-three-quarter
-    :width 175px
+    width: 175px
 
 .two-and-three-quarters
-    :width 275px
+    width: 275px
 
 .three-and-three-quarters
-    :width 375px
+    width: 375px
 
 .four-and-three-quarters
-    :width 475px
+    width: 475px
 
 .five-and-three-quarters
-    :width 575px
+    width: 575px
 
 .six-and-three-quarters
-    :width 675px
+    width: 675px
 
 .seven-and-three-quarters
-    :width 775px
+    width: 775px
 
 .eight-and-three-quarters
-    :width 875px
+    width: 875px
 
 .nine-and-three-quarters
-    :width 975px
+    width: 975px
 
 .one-half
-    :width 470px
+    width: 470px
 
 .one-third
-    :width 30%
+    width: 30%
 
 // -------------------------
 // CSS3 - ROUNDED CORNERS + SHADOWS
@@ -255,31 +254,32 @@ $purple: #933ad1
     zoom: 1
     *display: inline
 = shorthand ($weight: normal, $size: 14px, $lineHeight: normal) 
-  font:
-    size: $size
-    weight: $weight
-  line-height: $lineHeight
+    font:
+        size: $size
+        weight: $weight
+
+    line-height: $lineHeight
 
 = sans-serif($weight: normal, $size: 14px, $lineHeight: normal) 
-  font:
-    family: "Helvetica Neue", Helvetica, Arial, sans-serif
-    size: $size
-    weight: $weight
+    font:
+        family: "Helvetica Neue", Helvetica, Arial, sans-serif
+        size: $size
+        weight: $weight
 
-  line-height: $lineHeight
+    line-height: $lineHeight
 
 = serif($weight: normal, $size: 14px, $lineHeight: normal) 
-  font:
-    family: "Georgia", Times New Roman, Times, sans-serif
-    size: $size
-    weight: $weight
+    font:
+        family: "Georgia", Times New Roman, Times, sans-serif
+        size: $size
+        weight: $weight
 
-  line-height: $lineHeight
+    line-height: $lineHeight
 
 = monospace($weight: normal, $size: 12px, $lineHeight: normal) 
-  font:
-    family: "Monaco", Courier New, monospace
-    size: $size
-    weight: $weight
+    font:
+        family: "Monaco", Courier New, monospace
+        size: $size
+        weight: $weight
 
-  line-height: $lineHeight
+    line-height: $lineHeight
